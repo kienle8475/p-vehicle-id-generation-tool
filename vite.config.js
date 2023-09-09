@@ -8,5 +8,6 @@ export default defineConfig({
       vue: '@vue/compat',
     },
   },
+  base: '/p-vehicle-id-generation-tool/',
   plugins: [vue()],
 })
