@@ -1,0 +1,30 @@
+{
+  "common": {
+    "select_lang": "Ngôn ngữ",
+    "upload_placeholder": "Tải lên tập tin..."
+  },
+  "output": {
+    "schema": {
+      "header": "Cấu hình lược đồ",
+      "title_prefix": "Đầu biển số",      
+      "title_prefix_example": "Ví dụ: 81-AA, 81-A1, 81-A2",      
+      "title_start_number": "Biển số bắt đầu",      
+      "title_stop_number": "Biển số kết thúc",      
+      "title_no_of_row": "Số lượng hàng trên 1 trang",
+      "title_no_of_column": "Số lượng cột trên 1 trang",     
+      "title_exclude": "Danh sách số loại trừ"      
+    },
+    "paper": {
+      "header": "Thiết lập trang in"
+    },
+    "preview": {
+      "header": "Xem trước kết quả"
+    },
+    "sheet": {
+      "header": {
+        "index": "STT",
+        "vehicle_id": "Biển số"
+      }
+    }
+  }
+}
