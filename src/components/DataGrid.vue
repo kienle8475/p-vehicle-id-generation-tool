@@ -19,8 +19,8 @@ export default {
     dgxlOptions() {
       var custom_theme = {
         "scrollbar|border": "#FFFFFF",
-      } 
-      var tableData = !this.inputData.length ? DataGridXL.createEmptyData(100, 100) : this.inputData;
+      };
+      var tableData = !this.inputData.length ? DataGridXL.createEmptyData(50, 12) : this.inputData;
       return {
         data: tableData,
         contextMenuItems: [],
