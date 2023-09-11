@@ -1,6 +1,6 @@
 import Vue, { createApp } from '@vue/compat';
 import App from './App.vue'
-import BootstrapVue from 'bootstrap-vue';
+import {BootstrapVue, BootstrapVueIcons} from 'bootstrap-vue';
 import { createI18n } from 'vue-i18n'
 
 import 'bootstrap/dist/css/bootstrap.css';
@@ -9,6 +9,7 @@ import 'bootstrap-vue/dist/bootstrap-vue.css';
 import vnMessage from './lang/vn.json';
 
 Vue.use(BootstrapVue);
+Vue.use(BootstrapVueIcons);
 
 // 1. Ready translated locale messages
 // The structure of the locale message is the hierarchical object structure with each locale as the top property

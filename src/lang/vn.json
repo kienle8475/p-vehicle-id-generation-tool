@@ -3,28 +3,41 @@
     "select_lang": "Ngôn ngữ",
     "upload_placeholder": "Tải lên tập tin..."
   },
-  "output": {
+  "page": {
     "schema": {
-      "header": "Cấu hình lược đồ",
-      "title_prefix": "Đầu biển số",      
-      "title_prefix_example": "Ví dụ: 81-AA, 81-A1, 81-A2",      
-      "title_start_number": "Biển số bắt đầu",      
-      "title_stop_number": "Biển số kết thúc",      
-      "title_no_of_row": "Số lượng hàng trên 1 trang",
-      "title_no_of_column": "Số lượng cột trên 1 trang",     
-      "title_exclude": "Danh sách số loại trừ"      
+      "header": "Cấu hình",
+      "title_prefix": "Ký hiệu bảng số",      
+      "title_prefix_example": "Ví dụ: 81AA, 81A1, 81A2",      
+      "title_start_number": "Số bắt đầu",      
+      "title_stop_number": "Số kết thúc",
+      "title_plate_type": "Loại biển",     
+      "title_no_of_row": "Số hàng trên 1 trang",
+      "title_no_of_column": "Số cột trên 1 trang",     
+      "title_exclude": "Danh sách loại trừ",
+      "4_characters": "4 số",     
+      "5_characters": "5 số"
     },
-    "paper": {
+    "btn_generate": "Tạo danh sách biển số",
+    "btn_select_file": "Chọn file",
+    "btn_clear_file": "Xóa file",
+    "btn_download_xlsx": "Tải tệp Excel",
+    "btn_download_pdf": "Tải tệp PDF",
+    "print": {
       "header": "Thiết lập trang in"
     },
     "preview": {
-      "header": "Xem trước kết quả"
-    },
-    "sheet": {
-      "header": {
-        "index": "STT",
-        "vehicle_id": "Biển số"
-      }
+      "header": "Kết quả"
     }
+  },
+  "sheet": {
+    "header": {
+      "index": "STT",
+      "number_plate": "Biển số"
+    },
+    "page_orientation_p": "Dọc",
+    "page_orientation_l": "Ngang" 
+  },
+  "file": {
+    "file_name": "DANH SACH BIEN SO XE "
   }
 }
